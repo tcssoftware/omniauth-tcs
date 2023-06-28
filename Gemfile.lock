@@ -1,22 +1,22 @@
 PATH
   remote: .
   specs:
-    omniauth-tcs (0.1.11)
+    omniauth-tcs (1.0.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    minitest (5.11.3)
+    minitest (5.18.1)
     rake (10.5.0)
 
 PLATFORMS
-  ruby
+  -darwin-21
 
 DEPENDENCIES
-  bundler (~> 1.16)
+  bundler (>= 2.2.33)
   minitest (~> 5.0)
   omniauth-tcs!
   rake (~> 10.0)
 
 BUNDLED WITH
-   1.16.4
+   2.4.14
